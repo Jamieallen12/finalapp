@@ -39,6 +39,10 @@ window.onload = function (){
     newQuestion();
 }
     function checkAnswer(){
+        var x = document.getElementById("myAudio"); 
+
+  x.play(); 
+
     var a = document.getElementById("answer").value;
     console.log(a)
     console.log(answer)
